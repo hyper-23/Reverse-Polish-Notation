@@ -3,7 +3,7 @@
  * @return {Number} 計算結果
  */
 var rpn = function(S) {
-    S = S.split(" ")
+    S = S.split(" ");
     var que = [];
     var tmp = 0;
     for(i=0; i<S.length; i++){
